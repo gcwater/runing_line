@@ -1,3 +1,17 @@
+
+#tooltip {
+  overflow: auto;
+  z-index: 99;
+  position: absolute;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgba(0,0,0,0.75);
+  color: #fff;
+  width: 310px; 
+  height: 150px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
 <script>
   require([
   "esri/Map",
